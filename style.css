@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #FAF6ED;
+    font-family: "Space Grotesk", sans-serif;
+}
+.content {
+    max-width: 50rem;
+    margin: auto;
+}
+.intro {
+    margin: auto;
+    color: #2A1E12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.intro img {
+    width: 8.75rem;
+    border-radius: 100%;
+    border: 2px solid gainsboro;
+    padding: 6px;
+    background-color: white;
+    transition: all 1s;
+}
+
+.intro img:hover {
+    background-color: #DCC89C;
+    border: 2px solid #C19A5A;
+}
+.card {
+    margin: 0 0 1rem 0;
+    border: 2px solid #DCC89C;
+    border-radius: 5px;
+    background-color: white;
+    padding: 1rem;
+}
+.card h4{
+    margin: auto;
+    color: #6E5539;
+    text-align: center;
+    padding: 0.5rem;
+    padding-bottom: 0.25rem;
+    width: max-content;
+    border-bottom: 2px solid #6E5539;
+    border-radius: 3px;
+}
+.inner{
+    margin-top: 1rem;
+    display: flex;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inner p {
+    font-size: larger;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: max-content;
+    border: 2px dashed #DCC89C;
+    color: #6E5539;
+    border-radius: 5px;
+    margin: 0.25rem 0 0.25rem 0;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    background-color: #dcc89c17;
+    align-items: center;
+    transition: all 500ms;
+}
+.inner p:hover {
+    background-color: #dcc89c48;
+    color: #6E5539;
+}
+.inner p svg {
+    width: 1.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 2px solid #DCC89C;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+.links a, a {
+    color: #6E5539;
+}
+
+.project {
+    border-bottom: 1px solid gainsboro;
+    padding: 1rem;
+}
+.project h3 {
+    color: #6E5539;
+    border-bottom: 2px solid #6E5539;
+}
+.project a {
+    display: inline-block;
+    margin: 0.5rem 1rem 0.5rem 0;
+}
+.parallel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 1rem;
+}
+.os, .stack {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 768px) {
+  .parallel {
+    grid-template-columns: 1fr;
+  }
+}
