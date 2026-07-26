@@ -9,11 +9,12 @@ const Card = (props) => {
       </div>
 
       <h1 className='text-2xl'>{props.title}</h1>
-      <ul className='flex flex-wrap gap-2'>
+      <div className='flex flex-wrap gap-2 h-20'>
         {props.tags.map((pill => {
-          return <li key={pill} className='p-1 pl-2 pr-2 rounded-full bg-[#0A0E13] text-sm font-extralight text-[#E8B540]'>#{pill}</li>
+          return <p key={pill} className='w-max h-max p-1 text-center rounded-full bg-[#0A0E13] text-sm font-extralight text-[#E8B540]'>#{pill}</p>
         }))}
-      </ul>
+      </div>
+      
       <a href={props.link} className='flex justify-center gap-2 items-center p-1 bg-[#E8B540] w-full font-bold text-center rounded-md transition-all duration-300 hover:shadow-[0_0_55px_3px_#ffffff2d]'>GitHub Repo<FaGithub size={20}/></a>
       <p className='font-light text-[#8B949E] text-justify'>{props.brief}</p>
     </div>
