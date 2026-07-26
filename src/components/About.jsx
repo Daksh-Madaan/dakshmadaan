@@ -8,7 +8,7 @@ const About = () => {
 
       <div className='w-full flex flex-wrap-reverse justify-around sm:justify-between items-center gap-5'>
         <div className='flex flex-col items-center text-center sm:items-start sm:text-left'>
-          <h1 className='text-2xl font-bold tracking-tight text-shadow-[0_0_85px_#ffffff] border-b border-b-[#E8B540] pr-1 rounded-xs'>Daksh Madaan</h1>
+          <h1 className='text-2xl font-bold tracking-tight text-shadow-[0_0_85px_#ffffff] border-b border-b-[#E8B540] rounded-xs'>Daksh Madaan</h1>
           <p className='font-extralight'>Stitching AI Into Backends</p>
           <p className='text-sm flex gap-1 items-center'><FaMapMarkedAlt size={18} />Jalandhar, PB | Chandigarh, CH</p>
 
