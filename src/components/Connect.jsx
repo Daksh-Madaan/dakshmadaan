@@ -3,7 +3,7 @@ import {FaPaperPlane} from 'react-icons/fa'
 
 const Connect = () => {
   return (
-    <div id='Connect' className='text-[#E8E3D8] max-w-[90%] w-200 mt-25 m-auto'>
+    <div id='Connect' className='text-[#E8E3D8] max-w-[90%] w-200 mt-15 m-auto'>
         <h1 className='rounded-xs text-3xl mb-5 m-auto tracking-wide border-b border-b-[#E8B540] w-max p-1 text-shadow-[0_0px_100px_#ffffff]'>Let's Connect</h1>
 
       <form className='flex flex-col gap-5 items-center'>
