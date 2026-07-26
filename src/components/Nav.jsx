@@ -2,13 +2,19 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className='flex mt-3 gap-x-150 gap-y-3 flex-wrap max-w-[90%] w-270 items-center justify-center m-auto'>
-      <h1 className='font-medium text-3xl text-emerald-700'>daksh.md</h1>
-      <ul className='flex gap-5 text-emerald-700'>
-        <li className='p-1 w-22 text-center bg-emerald-600/25 rounded-md hover:rounded-xl transition-all duration-300'><a href=''>GitHub</a></li>
-        <li className='p-1 w-22 text-center bg-emerald-600/25 rounded-md hover:rounded-xl transition-all duration-300'><a href=''>Writings</a></li>
-      </ul>
+    <div className='w-full margin-auto sticky top-5'>
+      <div className='max-w-[95%] p-2.5 w-max ring-2 ring-[#1F2830] m-auto bg-[#0A0E13] rounded-full flex flex-wrap gap-c-5 tracking-tight drop-shadow-[0_0px_65px_#ffffff2d] justify-around'>
+        <div className='mt-px'>
+          <a href='#Home' className='p-1.5 pl-3 pr-3 text-[#8B949E] hover:text-[#E8E3D8] hover:bg-[#1A2129] rounded-full transition-all duration-300 hover:drop-shadow-[0_-2px_65px_#ffffff2d] border-t border-[#0A0E13] hover:border-[#1F2830]'>Home</a>
+          <a href='#Toolbox' className='p-1.5 pl-3 pr-3 text-[#8B949E] hover:text-[#E8E3D8] hover:bg-[#1A2129] rounded-full transition-all duration-300 hover:drop-shadow-[0_-2px_65px_#ffffff2d] border-t border-[#0A0E13] hover:border-[#1F2830]'>Toolbox</a>
+        </div>
+        <div className='mt-px'>
+          <a href='#Projects' className='p-1.5 pl-3 pr-3 text-[#8B949E] hover:text-[#E8E3D8] hover:bg-[#1A2129] rounded-full transition-all duration-300 hover:drop-shadow-[0_-2px_65px_#ffffff2d] border-t border-[#0A0E13] hover:border-[#1F2830]'>Projects</a>
+          <a href='#Connect' className='p-1.5 pl-3 pr-3 text-[#8B949E] hover:text-[#E8E3D8] hover:bg-[#1A2129] rounded-full transition-all duration-300 hover:drop-shadow-[0_-2px_65px_#ffffff2d] border-t border-[#0A0E13] hover:border-[#1F2830]'>Connect</a>
+        </div>
+      </div>
     </div>
+
   )
 }
 
