@@ -26,7 +26,7 @@ const About = () => {
       <p className='text-justify mt-5 m-auto text-[#8B949E] text-lg'>
           I mostly work with <span className='text-[#E8E3D8]'>Python & Javascript</span>, 
           focused on building AI-powered backend systems, interested in RAG and making LLMs reliable & genuinely useful.
-          Currently, exploring <span className='text-[#E8E3D8]'>Agentic RAG</span> to deploy Custom LLMs & Agents to apps.
+          Currently, exploring <span className='text-[#E8E3D8]'>Agentic RAG</span> to build Custom LLMs & Agents into real-world apps.
           <br></br><span className='italic'>Always Building, Always Learning</span>
           <br></br>2nd-Year CSE Student @ Chandigarh University
       </p>
