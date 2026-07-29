@@ -38,11 +38,12 @@ const ToolBox = () => {
         </div>
         <div className='mt-3 p-3'>
           <h3 className='text-md font-bold underline underline-offset-4 text-[#8B949E]'>Data & Tools</h3>
-          <div className='flex gap-8 mt-3 items-center'>
-            <p className='flex flex-col gap-2 text-sm items-center'><BiLogoPostgresql size={32} /> PostgreSQL</p>
-            <p className='flex flex-col gap-2 text-sm items-center'><SiRedis size={28} /> Redis</p>
-            <p className='flex flex-col gap-2 text-sm items-center'><SiGit size={28} /> Git</p>
-            <p className='flex flex-col gap-2 text-sm items-center'><SiVercel size={28} /> Vercel</p>
+          <div className='flex gap-6 mt-3 items-center'>
+            
+            <p className='flex flex-col gap-2 text-sm items-center'><SiRedis size={30} /> Redis</p>
+            <p className='flex flex-col gap-2 text-sm items-center'><SiGit size={32} /> Git</p>
+            <p className='flex flex-col gap-2 text-sm items-center'><SiVercel size={30} /> Vercel</p>
+            <p className='flex flex-col gap-2 text-sm items-center'><BiLogoPostgresql size={36} /> Postgres</p>
           </div>
         </div>
       </div>
